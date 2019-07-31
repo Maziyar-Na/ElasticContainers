@@ -1,0 +1,1 @@
+cmd_/home/maaz/Desktop/ec_kmods/socket_connection/cgroup_connection.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/maaz/Desktop/ec_kmods/socket_connection/cgroup_connection.ko /home/maaz/Desktop/ec_kmods/socket_connection/cgroup_connection.o /home/maaz/Desktop/ec_kmods/socket_connection/cgroup_connection.mod.o ;  true
