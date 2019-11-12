@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pmbenchmark>
+  <report>
+    <signature>
+      <pmbench_info>
+        <version_number>pmbench 0.9</version_number>
+        <version_options> Linux 64bit +mt -nu -xa</version_options>
+        <version_xmloutput>0.1</version_xmloutput>
+      </pmbench_info>
+      <os_info>
+        <hostname>6e0d92946bb7</hostname>
+        <version_info>
+          <os_name>Linux</os_name>
+          <arch>x86_64</arch>
+          <release>4.20.16test+</release>
+        </version_info>
+      </os_info>
+      <time_info>
+        <wday>1</wday>
+        <year>119</year>
+        <mon>10</mon>
+        <mday>11</mday>
+        <hour>18</hour>
+        <min>51</min>
+        <sec>17</sec>
+        <yday>314</yday>
+        <isdst>0</isdst>
+      </time_info>
+      <uuid>7444fb33-5503-4fd5-b94a-258ec1290f9b</uuid>
+      <params>
+        <duration>100</duration>
+        <mapsize>12288</mapsize>
+        <setsize>12288</setsize>
+        <initialize>0</initialize>
+        <shape>1.0000</shape>
+        <delay>0</delay>
+        <quiet>0</quiet>
+        <cold>0</cold>
+        <jobs>1</jobs>
+        <offset>-1</offset>
+        <ratio>50</ratio>
+        <pattern>uniform</pattern>
+        <access>histo</access>
+        <tsops>rdtscp</tsops>
+      </params>
+    </signature>
+    <machine_info>
+      <modelname>Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz</modelname>
+      <freq_khz>2200000</freq_khz>
+      <tlb_info>
+        <tlb_item index="0" id="63"/>
+        <tlb_item index="1" id="03"/>
+        <tlb_item index="2" id="76"/>
+        <tlb_item index="3" id="ff"/>
+        <tlb_item index="4" id="b5"/>
+        <tlb_item index="5" id="f0"/>
+        <tlb_item index="6" id="c3"/>
+      </tlb_info>
+      <cache_info deterministic="1">
+        <cache type="DCACHE">
+          <level>1</level>
+          <capacity>32</capacity>
+          <sets>64</sets>
+          <linesize>64</linesize>
+          <partitions>1</partitions>
+          <ways>8</ways>
+        </cache>
+        <cache type="ICACHE">
+          <level>1</level>
+          <capacity>32</capacity>
+          <sets>64</sets>
+          <linesize>64</linesize>
+          <partitions>1</partitions>
+          <ways>8</ways>
+        </cache>
+        <cache type="CACHE">
+          <level>2</level>
+          <capacity>1024</capacity>
+          <sets>1024</sets>
+          <linesize>64</linesize>
+          <partitions>1</partitions>
+          <ways>16</ways>
+        </cache>
+        <cache type="CACHE">
+          <level>3</level>
+          <capacity>14080</capacity>
+          <sets>20480</sets>
+          <linesize>64</linesize>
+          <partitions>1</partitions>
+          <ways>11</ways>
+        </cache>
+      </cache_info>
+    </machine_info>
+    <result>
+      <result_thread thread_num="1">
+        <result_netavg>
+          <netavg_us>0.1654</netavg_us>
+          <netavg_clk>363</netavg_clk>
+        </result_netavg>
+        <result_details>
+          <details_latency>
+            <latency_us>0.1902</latency_us>
+            <latency_clk>418</latency_clk>
+          </details_latency>
+          <details_samples>525760000</details_samples>
+          <details_overhead>
+            <overhead_us>0.0248</overhead_us>
+            <overhead_clk>54</overhead_clk>
+          </details_overhead>
+          <details_total>1000000</details_total>
+        </result_details>
+        <warmup_details>
+          <warmup_latency>
+            <warmup_us>0.7225</warmup_us>
+            <warmup_clk>1589</warmup_clk>
+          </warmup_latency>
+          <warmup_total>12582912</warmup_total>
+        </warmup_details>
+      </result_thread>
+    </result>
+    <statistics>
+      <histogram type="read">
+        <histo_bucket index="0">
+          <bucket_interval>
+            <interval_lo>0</interval_lo>
+            <interval_hi>8</interval_hi>
+          </bucket_interval>
+          <sum_count>245122064</sum_count>
+        </histo_bucket>
+        <histo_bucket index="1">
+          <bucket_interval>
+            <interval_lo>8</interval_lo>
+            <interval_hi>9</interval_hi>
+          </bucket_interval>
+          <sum_count>13055569</sum_count>
+          <bucket_hexes>
+            <hex index="0">901091</hex>
+            <hex index="1">716199</hex>
+            <hex index="2">648477</hex>
+            <hex index="3">758220</hex>
+            <hex index="4">802383</hex>
+            <hex index="5">884672</hex>
+            <hex index="6">764918</hex>
+            <hex index="7">697529</hex>
+            <hex index="8">791813</hex>
+            <hex index="9">1051221</hex>
+            <hex index="10">957483</hex>
+            <hex index="11">779775</hex>
+            <hex index="12">718125</hex>
+            <hex index="13">647550</hex>
+            <hex index="14">1077905</hex>
+            <hex index="15">858208</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="2">
+          <bucket_interval>
+            <interval_lo>9</interval_lo>
+            <interval_hi>10</interval_hi>
+          </bucket_interval>
+          <sum_count>2116936</sum_count>
+          <bucket_hexes>
+            <hex index="0">1294433</hex>
+            <hex index="1">590323</hex>
+            <hex index="2">136007</hex>
+            <hex index="3">6544</hex>
+            <hex index="4">3633</hex>
+            <hex index="5">1749</hex>
+            <hex index="6">1520</hex>
+            <hex index="7">1812</hex>
+            <hex index="8">1459</hex>
+            <hex index="9">1676</hex>
+            <hex index="10">2566</hex>
+            <hex index="11">4873</hex>
+            <hex index="12">5091</hex>
+            <hex index="13">14027</hex>
+            <hex index="14">5838</hex>
+            <hex index="15">45385</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="3">
+          <bucket_interval>
+            <interval_lo>10</interval_lo>
+            <interval_hi>11</interval_hi>
+          </bucket_interval>
+          <sum_count>2575172</sum_count>
+          <bucket_hexes>
+            <hex index="0">560119</hex>
+            <hex index="1">1244548</hex>
+            <hex index="2">392731</hex>
+            <hex index="3">131710</hex>
+            <hex index="4">79798</hex>
+            <hex index="5">68405</hex>
+            <hex index="6">55761</hex>
+            <hex index="7">22734</hex>
+            <hex index="8">9387</hex>
+            <hex index="9">5086</hex>
+            <hex index="10">2520</hex>
+            <hex index="11">1484</hex>
+            <hex index="12">701</hex>
+            <hex index="13">117</hex>
+            <hex index="14">52</hex>
+            <hex index="15">19</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="4">
+          <bucket_interval>
+            <interval_lo>11</interval_lo>
+            <interval_hi>12</interval_hi>
+          </bucket_interval>
+          <sum_count>9715</sum_count>
+          <bucket_hexes>
+            <hex index="0">26</hex>
+            <hex index="1">9</hex>
+            <hex index="2">4</hex>
+            <hex index="3">4</hex>
+            <hex index="4">0</hex>
+            <hex index="5">0</hex>
+            <hex index="6">0</hex>
+            <hex index="7">1</hex>
+            <hex index="8">0</hex>
+            <hex index="9">0</hex>
+            <hex index="10">23</hex>
+            <hex index="11">628</hex>
+            <hex index="12">2547</hex>
+            <hex index="13">2919</hex>
+            <hex index="14">2106</hex>
+            <hex index="15">1448</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="5">
+          <bucket_interval>
+            <interval_lo>12</interval_lo>
+            <interval_hi>13</interval_hi>
+          </bucket_interval>
+          <sum_count>2493</sum_count>
+          <bucket_hexes>
+            <hex index="0">1093</hex>
+            <hex index="1">563</hex>
+            <hex index="2">471</hex>
+            <hex index="3">236</hex>
+            <hex index="4">65</hex>
+            <hex index="5">26</hex>
+            <hex index="6">16</hex>
+            <hex index="7">9</hex>
+            <hex index="8">4</hex>
+            <hex index="9">4</hex>
+            <hex index="10">1</hex>
+            <hex index="11">1</hex>
+            <hex index="12">2</hex>
+            <hex index="13">0</hex>
+            <hex index="14">0</hex>
+            <hex index="15">2</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="6">
+          <bucket_interval>
+            <interval_lo>13</interval_lo>
+            <interval_hi>14</interval_hi>
+          </bucket_interval>
+          <sum_count>6210</sum_count>
+          <bucket_hexes>
+            <hex index="0">1</hex>
+            <hex index="1">7</hex>
+            <hex index="2">19</hex>
+            <hex index="3">15</hex>
+            <hex index="4">13</hex>
+            <hex index="5">2635</hex>
+            <hex index="6">428</hex>
+            <hex index="7">259</hex>
+            <hex index="8">150</hex>
+            <hex index="9">73</hex>
+            <hex index="10">22</hex>
+            <hex index="11">9</hex>
+            <hex index="12">5</hex>
+            <hex index="13">3</hex>
+            <hex index="14">19</hex>
+            <hex index="15">2552</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="7">
+          <bucket_interval>
+            <interval_lo>14</interval_lo>
+            <interval_hi>15</interval_hi>
+          </bucket_interval>
+          <sum_count>595</sum_count>
+          <bucket_hexes>
+            <hex index="0">526</hex>
+            <hex index="1">55</hex>
+            <hex index="2">0</hex>
+            <hex index="3">6</hex>
+            <hex index="4">2</hex>
+            <hex index="5">0</hex>
+            <hex index="6">0</hex>
+            <hex index="7">0</hex>
+            <hex index="8">0</hex>
+            <hex index="9">0</hex>
+            <hex index="10">0</hex>
+            <hex index="11">0</hex>
+            <hex index="12">0</hex>
+            <hex index="13">0</hex>
+            <hex index="14">2</hex>
+            <hex index="15">4</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="8">
+          <bucket_interval>
+            <interval_lo>15</interval_lo>
+            <interval_hi>16</interval_hi>
+          </bucket_interval>
+          <sum_count>8</sum_count>
+          <bucket_hexes>
+            <hex index="0">4</hex>
+            <hex index="1">0</hex>
+            <hex index="2">0</hex>
+            <hex index="3">0</hex>
+            <hex index="4">0</hex>
+            <hex index="5">1</hex>
+            <hex index="6">0</hex>
+            <hex index="7">0</hex>
+            <hex index="8">1</hex>
+            <hex index="9">1</hex>
+            <hex index="10">0</hex>
+            <hex index="11">0</hex>
+            <hex index="12">1</hex>
+            <hex index="13">0</hex>
+            <hex index="14">0</hex>
+            <hex index="15">0</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="9">
+          <bucket_interval>
+            <interval_lo>16</interval_lo>
+            <interval_hi>17</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+          <bucket_hexes>
+            <hex index="0">0</hex>
+            <hex index="1">0</hex>
+            <hex index="2">0</hex>
+            <hex index="3">0</hex>
+            <hex index="4">0</hex>
+            <hex index="5">0</hex>
+            <hex index="6">0</hex>
+            <hex index="7">0</hex>
+            <hex index="8">0</hex>
+            <hex index="9">0</hex>
+            <hex index="10">0</hex>
+            <hex index="11">0</hex>
+            <hex index="12">0</hex>
+            <hex index="13">0</hex>
+            <hex index="14">0</hex>
+            <hex index="15">0</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="10">
+          <bucket_interval>
+            <interval_lo>17</interval_lo>
+            <interval_hi>18</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+          <bucket_hexes>
+            <hex index="0">0</hex>
+            <hex index="1">0</hex>
+            <hex index="2">0</hex>
+            <hex index="3">0</hex>
+            <hex index="4">0</hex>
+            <hex index="5">0</hex>
+            <hex index="6">0</hex>
+            <hex index="7">0</hex>
+            <hex index="8">0</hex>
+            <hex index="9">0</hex>
+            <hex index="10">0</hex>
+            <hex index="11">0</hex>
+            <hex index="12">0</hex>
+            <hex index="13">0</hex>
+            <hex index="14">0</hex>
+            <hex index="15">0</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="11">
+          <bucket_interval>
+            <interval_lo>18</interval_lo>
+            <interval_hi>19</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+          <bucket_hexes>
+            <hex index="0">0</hex>
+            <hex index="1">0</hex>
+            <hex index="2">0</hex>
+            <hex index="3">0</hex>
+            <hex index="4">0</hex>
+            <hex index="5">0</hex>
+            <hex index="6">0</hex>
+            <hex index="7">0</hex>
+            <hex index="8">0</hex>
+            <hex index="9">0</hex>
+            <hex index="10">0</hex>
+            <hex index="11">0</hex>
+            <hex index="12">0</hex>
+            <hex index="13">0</hex>
+            <hex index="14">0</hex>
+            <hex index="15">0</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="12">
+          <bucket_interval>
+            <interval_lo>19</interval_lo>
+            <interval_hi>20</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+          <bucket_hexes>
+            <hex index="0">0</hex>
+            <hex index="1">0</hex>
+            <hex index="2">0</hex>
+            <hex index="3">0</hex>
+            <hex index="4">0</hex>
+            <hex index="5">0</hex>
+            <hex index="6">0</hex>
+            <hex index="7">0</hex>
+            <hex index="8">0</hex>
+            <hex index="9">0</hex>
+            <hex index="10">0</hex>
+            <hex index="11">0</hex>
+            <hex index="12">0</hex>
+            <hex index="13">0</hex>
+            <hex index="14">0</hex>
+            <hex index="15">0</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="13">
+          <bucket_interval>
+            <interval_lo>20</interval_lo>
+            <interval_hi>21</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+          <bucket_hexes>
+            <hex index="0">0</hex>
+            <hex index="1">0</hex>
+            <hex index="2">0</hex>
+            <hex index="3">0</hex>
+            <hex index="4">0</hex>
+            <hex index="5">0</hex>
+            <hex index="6">0</hex>
+            <hex index="7">0</hex>
+            <hex index="8">0</hex>
+            <hex index="9">0</hex>
+            <hex index="10">0</hex>
+            <hex index="11">0</hex>
+            <hex index="12">0</hex>
+            <hex index="13">0</hex>
+            <hex index="14">0</hex>
+            <hex index="15">0</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="14">
+          <bucket_interval>
+            <interval_lo>21</interval_lo>
+            <interval_hi>22</interval_hi>
+          </bucket_interval>
+          <sum_count>42</sum_count>
+          <bucket_hexes>
+            <hex index="0">0</hex>
+            <hex index="1">0</hex>
+            <hex index="2">0</hex>
+            <hex index="3">0</hex>
+            <hex index="4">0</hex>
+            <hex index="5">0</hex>
+            <hex index="6">0</hex>
+            <hex index="7">0</hex>
+            <hex index="8">0</hex>
+            <hex index="9">0</hex>
+            <hex index="10">0</hex>
+            <hex index="11">0</hex>
+            <hex index="12">0</hex>
+            <hex index="13">0</hex>
+            <hex index="14">1</hex>
+            <hex index="15">41</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="15">
+          <bucket_interval>
+            <interval_lo>22</interval_lo>
+            <interval_hi>23</interval_hi>
+          </bucket_interval>
+          <sum_count>1</sum_count>
+          <bucket_hexes>
+            <hex index="0">1</hex>
+            <hex index="1">0</hex>
+            <hex index="2">0</hex>
+            <hex index="3">0</hex>
+            <hex index="4">0</hex>
+            <hex index="5">0</hex>
+            <hex index="6">0</hex>
+            <hex index="7">0</hex>
+            <hex index="8">0</hex>
+            <hex index="9">0</hex>
+            <hex index="10">0</hex>
+            <hex index="11">0</hex>
+            <hex index="12">0</hex>
+            <hex index="13">0</hex>
+            <hex index="14">0</hex>
+            <hex index="15">0</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="0">
+          <bucket_interval>
+            <interval_lo>23</interval_lo>
+            <interval_hi>24</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+        </histo_bucket>
+        <histo_bucket index="0">
+          <bucket_interval>
+            <interval_lo>24</interval_lo>
+            <interval_hi>25</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+        </histo_bucket>
+        <histo_bucket index="0">
+          <bucket_interval>
+            <interval_lo>25</interval_lo>
+            <interval_hi>26</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+        </histo_bucket>
+        <histo_bucket index="0">
+          <bucket_interval>
+            <interval_lo>26</interval_lo>
+            <interval_hi>27</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+        </histo_bucket>
+        <histo_bucket index="0">
+          <bucket_interval>
+            <interval_lo>27</interval_lo>
+            <interval_hi>28</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+        </histo_bucket>
+        <histo_bucket index="0">
+          <bucket_interval>
+            <interval_lo>28</interval_lo>
+            <interval_hi>29</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+        </histo_bucket>
+        <histo_bucket index="0">
+          <bucket_interval>
+            <interval_lo>29</interval_lo>
+            <interval_hi>30</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+        </histo_bucket>
+        <histo_bucket index="0">
+          <bucket_interval>
+            <interval_lo>30</interval_lo>
+            <interval_hi>32</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+        </histo_bucket>
+      </histogram>
+      <histogram type="write">
+        <histo_bucket index="0">
+          <bucket_interval>
+            <interval_lo>0</interval_lo>
+            <interval_hi>8</interval_hi>
+          </bucket_interval>
+          <sum_count>255232768</sum_count>
+        </histo_bucket>
+        <histo_bucket index="1">
+          <bucket_interval>
+            <interval_lo>8</interval_lo>
+            <interval_hi>9</interval_hi>
+          </bucket_interval>
+          <sum_count>4557327</sum_count>
+          <bucket_hexes>
+            <hex index="0">354438</hex>
+            <hex index="1">313472</hex>
+            <hex index="2">275614</hex>
+            <hex index="3">305756</hex>
+            <hex index="4">351908</hex>
+            <hex index="5">364389</hex>
+            <hex index="6">322654</hex>
+            <hex index="7">295162</hex>
+            <hex index="8">282539</hex>
+            <hex index="9">512054</hex>
+            <hex index="10">401004</hex>
+            <hex index="11">328839</hex>
+            <hex index="12">280685</hex>
+            <hex index="13">93430</hex>
+            <hex index="14">23009</hex>
+            <hex index="15">52374</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="2">
+          <bucket_interval>
+            <interval_lo>9</interval_lo>
+            <interval_hi>10</interval_hi>
+          </bucket_interval>
+          <sum_count>1061531</sum_count>
+          <bucket_hexes>
+            <hex index="0">18040</hex>
+            <hex index="1">1397</hex>
+            <hex index="2">99</hex>
+            <hex index="3">53</hex>
+            <hex index="4">33</hex>
+            <hex index="5">34</hex>
+            <hex index="6">24</hex>
+            <hex index="7">20</hex>
+            <hex index="8">25</hex>
+            <hex index="9">46</hex>
+            <hex index="10">399</hex>
+            <hex index="11">1502</hex>
+            <hex index="12">14434</hex>
+            <hex index="13">132025</hex>
+            <hex index="14">297843</hex>
+            <hex index="15">595557</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="3">
+          <bucket_interval>
+            <interval_lo>10</interval_lo>
+            <interval_hi>11</interval_hi>
+          </bucket_interval>
+          <sum_count>1618742</sum_count>
+          <bucket_hexes>
+            <hex index="0">1058956</hex>
+            <hex index="1">273118</hex>
+            <hex index="2">91120</hex>
+            <hex index="3">58079</hex>
+            <hex index="4">51188</hex>
+            <hex index="5">35384</hex>
+            <hex index="6">10883</hex>
+            <hex index="7">3108</hex>
+            <hex index="8">1035</hex>
+            <hex index="9">446</hex>
+            <hex index="10">463</hex>
+            <hex index="11">5254</hex>
+            <hex index="12">14966</hex>
+            <hex index="13">3493</hex>
+            <hex index="14">1718</hex>
+            <hex index="15">9531</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="4">
+          <bucket_interval>
+            <interval_lo>11</interval_lo>
+            <interval_hi>12</interval_hi>
+          </bucket_interval>
+          <sum_count>393351</sum_count>
+          <bucket_hexes>
+            <hex index="0">254340</hex>
+            <hex index="1">66575</hex>
+            <hex index="2">21259</hex>
+            <hex index="3">10819</hex>
+            <hex index="4">1606</hex>
+            <hex index="5">1919</hex>
+            <hex index="6">657</hex>
+            <hex index="7">7438</hex>
+            <hex index="8">14398</hex>
+            <hex index="9">2753</hex>
+            <hex index="10">1738</hex>
+            <hex index="11">1289</hex>
+            <hex index="12">2303</hex>
+            <hex index="13">2626</hex>
+            <hex index="14">2090</hex>
+            <hex index="15">1541</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="5">
+          <bucket_interval>
+            <interval_lo>12</interval_lo>
+            <interval_hi>13</interval_hi>
+          </bucket_interval>
+          <sum_count>3843</sum_count>
+          <bucket_hexes>
+            <hex index="0">1655</hex>
+            <hex index="1">1020</hex>
+            <hex index="2">581</hex>
+            <hex index="3">242</hex>
+            <hex index="4">77</hex>
+            <hex index="5">89</hex>
+            <hex index="6">91</hex>
+            <hex index="7">38</hex>
+            <hex index="8">19</hex>
+            <hex index="9">13</hex>
+            <hex index="10">6</hex>
+            <hex index="11">5</hex>
+            <hex index="12">3</hex>
+            <hex index="13">0</hex>
+            <hex index="14">2</hex>
+            <hex index="15">2</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="6">
+          <bucket_interval>
+            <interval_lo>13</interval_lo>
+            <interval_hi>14</interval_hi>
+          </bucket_interval>
+          <sum_count>3277</sum_count>
+          <bucket_hexes>
+            <hex index="0">0</hex>
+            <hex index="1">7</hex>
+            <hex index="2">5</hex>
+            <hex index="3">11</hex>
+            <hex index="4">4</hex>
+            <hex index="5">1318</hex>
+            <hex index="6">131</hex>
+            <hex index="7">214</hex>
+            <hex index="8">72</hex>
+            <hex index="9">74</hex>
+            <hex index="10">19</hex>
+            <hex index="11">13</hex>
+            <hex index="12">5</hex>
+            <hex index="13">3</hex>
+            <hex index="14">55</hex>
+            <hex index="15">1346</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="7">
+          <bucket_interval>
+            <interval_lo>14</interval_lo>
+            <interval_hi>15</interval_hi>
+          </bucket_interval>
+          <sum_count>336</sum_count>
+          <bucket_hexes>
+            <hex index="0">248</hex>
+            <hex index="1">60</hex>
+            <hex index="2">11</hex>
+            <hex index="3">9</hex>
+            <hex index="4">2</hex>
+            <hex index="5">0</hex>
+            <hex index="6">0</hex>
+            <hex index="7">1</hex>
+            <hex index="8">0</hex>
+            <hex index="9">1</hex>
+            <hex index="10">0</hex>
+            <hex index="11">0</hex>
+            <hex index="12">0</hex>
+            <hex index="13">0</hex>
+            <hex index="14">1</hex>
+            <hex index="15">3</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="8">
+          <bucket_interval>
+            <interval_lo>15</interval_lo>
+            <interval_hi>16</interval_hi>
+          </bucket_interval>
+          <sum_count>2</sum_count>
+          <bucket_hexes>
+            <hex index="0">0</hex>
+            <hex index="1">1</hex>
+            <hex index="2">0</hex>
+            <hex index="3">0</hex>
+            <hex index="4">1</hex>
+            <hex index="5">0</hex>
+            <hex index="6">0</hex>
+            <hex index="7">0</hex>
+            <hex index="8">0</hex>
+            <hex index="9">0</hex>
+            <hex index="10">0</hex>
+            <hex index="11">0</hex>
+            <hex index="12">0</hex>
+            <hex index="13">0</hex>
+            <hex index="14">0</hex>
+            <hex index="15">0</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="9">
+          <bucket_interval>
+            <interval_lo>16</interval_lo>
+            <interval_hi>17</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+          <bucket_hexes>
+            <hex index="0">0</hex>
+            <hex index="1">0</hex>
+            <hex index="2">0</hex>
+            <hex index="3">0</hex>
+            <hex index="4">0</hex>
+            <hex index="5">0</hex>
+            <hex index="6">0</hex>
+            <hex index="7">0</hex>
+            <hex index="8">0</hex>
+            <hex index="9">0</hex>
+            <hex index="10">0</hex>
+            <hex index="11">0</hex>
+            <hex index="12">0</hex>
+            <hex index="13">0</hex>
+            <hex index="14">0</hex>
+            <hex index="15">0</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="10">
+          <bucket_interval>
+            <interval_lo>17</interval_lo>
+            <interval_hi>18</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+          <bucket_hexes>
+            <hex index="0">0</hex>
+            <hex index="1">0</hex>
+            <hex index="2">0</hex>
+            <hex index="3">0</hex>
+            <hex index="4">0</hex>
+            <hex index="5">0</hex>
+            <hex index="6">0</hex>
+            <hex index="7">0</hex>
+            <hex index="8">0</hex>
+            <hex index="9">0</hex>
+            <hex index="10">0</hex>
+            <hex index="11">0</hex>
+            <hex index="12">0</hex>
+            <hex index="13">0</hex>
+            <hex index="14">0</hex>
+            <hex index="15">0</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="11">
+          <bucket_interval>
+            <interval_lo>18</interval_lo>
+            <interval_hi>19</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+          <bucket_hexes>
+            <hex index="0">0</hex>
+            <hex index="1">0</hex>
+            <hex index="2">0</hex>
+            <hex index="3">0</hex>
+            <hex index="4">0</hex>
+            <hex index="5">0</hex>
+            <hex index="6">0</hex>
+            <hex index="7">0</hex>
+            <hex index="8">0</hex>
+            <hex index="9">0</hex>
+            <hex index="10">0</hex>
+            <hex index="11">0</hex>
+            <hex index="12">0</hex>
+            <hex index="13">0</hex>
+            <hex index="14">0</hex>
+            <hex index="15">0</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="12">
+          <bucket_interval>
+            <interval_lo>19</interval_lo>
+            <interval_hi>20</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+          <bucket_hexes>
+            <hex index="0">0</hex>
+            <hex index="1">0</hex>
+            <hex index="2">0</hex>
+            <hex index="3">0</hex>
+            <hex index="4">0</hex>
+            <hex index="5">0</hex>
+            <hex index="6">0</hex>
+            <hex index="7">0</hex>
+            <hex index="8">0</hex>
+            <hex index="9">0</hex>
+            <hex index="10">0</hex>
+            <hex index="11">0</hex>
+            <hex index="12">0</hex>
+            <hex index="13">0</hex>
+            <hex index="14">0</hex>
+            <hex index="15">0</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="13">
+          <bucket_interval>
+            <interval_lo>20</interval_lo>
+            <interval_hi>21</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+          <bucket_hexes>
+            <hex index="0">0</hex>
+            <hex index="1">0</hex>
+            <hex index="2">0</hex>
+            <hex index="3">0</hex>
+            <hex index="4">0</hex>
+            <hex index="5">0</hex>
+            <hex index="6">0</hex>
+            <hex index="7">0</hex>
+            <hex index="8">0</hex>
+            <hex index="9">0</hex>
+            <hex index="10">0</hex>
+            <hex index="11">0</hex>
+            <hex index="12">0</hex>
+            <hex index="13">0</hex>
+            <hex index="14">0</hex>
+            <hex index="15">0</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="14">
+          <bucket_interval>
+            <interval_lo>21</interval_lo>
+            <interval_hi>22</interval_hi>
+          </bucket_interval>
+          <sum_count>18</sum_count>
+          <bucket_hexes>
+            <hex index="0">0</hex>
+            <hex index="1">0</hex>
+            <hex index="2">0</hex>
+            <hex index="3">0</hex>
+            <hex index="4">0</hex>
+            <hex index="5">0</hex>
+            <hex index="6">0</hex>
+            <hex index="7">0</hex>
+            <hex index="8">0</hex>
+            <hex index="9">0</hex>
+            <hex index="10">0</hex>
+            <hex index="11">0</hex>
+            <hex index="12">1</hex>
+            <hex index="13">0</hex>
+            <hex index="14">1</hex>
+            <hex index="15">16</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="15">
+          <bucket_interval>
+            <interval_lo>22</interval_lo>
+            <interval_hi>23</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+          <bucket_hexes>
+            <hex index="0">0</hex>
+            <hex index="1">0</hex>
+            <hex index="2">0</hex>
+            <hex index="3">0</hex>
+            <hex index="4">0</hex>
+            <hex index="5">0</hex>
+            <hex index="6">0</hex>
+            <hex index="7">0</hex>
+            <hex index="8">0</hex>
+            <hex index="9">0</hex>
+            <hex index="10">0</hex>
+            <hex index="11">0</hex>
+            <hex index="12">0</hex>
+            <hex index="13">0</hex>
+            <hex index="14">0</hex>
+            <hex index="15">0</hex>
+          </bucket_hexes>
+        </histo_bucket>
+        <histo_bucket index="0">
+          <bucket_interval>
+            <interval_lo>23</interval_lo>
+            <interval_hi>24</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+        </histo_bucket>
+        <histo_bucket index="0">
+          <bucket_interval>
+            <interval_lo>24</interval_lo>
+            <interval_hi>25</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+        </histo_bucket>
+        <histo_bucket index="0">
+          <bucket_interval>
+            <interval_lo>25</interval_lo>
+            <interval_hi>26</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+        </histo_bucket>
+        <histo_bucket index="0">
+          <bucket_interval>
+            <interval_lo>26</interval_lo>
+            <interval_hi>27</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+        </histo_bucket>
+        <histo_bucket index="0">
+          <bucket_interval>
+            <interval_lo>27</interval_lo>
+            <interval_hi>28</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+        </histo_bucket>
+        <histo_bucket index="0">
+          <bucket_interval>
+            <interval_lo>28</interval_lo>
+            <interval_hi>29</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+        </histo_bucket>
+        <histo_bucket index="0">
+          <bucket_interval>
+            <interval_lo>29</interval_lo>
+            <interval_hi>30</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+        </histo_bucket>
+        <histo_bucket index="0">
+          <bucket_interval>
+            <interval_lo>30</interval_lo>
+            <interval_hi>32</interval_hi>
+          </bucket_interval>
+          <sum_count>0</sum_count>
+        </histo_bucket>
+      </histogram>
+    </statistics>
+    <sys_mem_info>
+      <sys_mem_item name="pre-warmup">
+        <mem_item_info>
+          <free_kib>189876128</free_kib>
+          <buffer_kib>194165128</buffer_kib>
+          <cache_kib>280524</cache_kib>
+          <active_kib>0</active_kib>
+          <inactive_kib>1838312</inactive_kib>
+          <pgpgin>1873209</pgpgin>
+          <pgpgout>7440068</pgpgout>
+          <pswpin>0</pswpin>
+          <pswpout>0</pswpout>
+          <pgmajfault>997</pgmajfault>
+        </mem_item_info>
+        <mem_item_delta>
+          <free_kib>-10902828</free_kib>
+          <buffer_kib>-10902804</buffer_kib>
+          <cache_kib>8</cache_kib>
+          <active_kib>0</active_kib>
+          <inactive_kib>10878028</inactive_kib>
+          <pgpgin>0</pgpgin>
+          <pgpgout>12</pgpgout>
+          <pswpin>0</pswpin>
+          <pswpout>0</pswpout>
+          <pgmajfault>0</pgmajfault>
+        </mem_item_delta>
+      </sys_mem_item>
+      <sys_mem_item name="pre-run">
+        <mem_item_info>
+          <free_kib>178973300</free_kib>
+          <buffer_kib>183262324</buffer_kib>
+          <cache_kib>280532</cache_kib>
+          <active_kib>0</active_kib>
+          <inactive_kib>12716340</inactive_kib>
+          <pgpgin>1873209</pgpgin>
+          <pgpgout>7440080</pgpgout>
+          <pswpin>0</pswpin>
+          <pswpout>0</pswpout>
+          <pgmajfault>997</pgmajfault>
+        </mem_item_info>
+        <mem_item_delta>
+          <free_kib>-1704988</free_kib>
+          <buffer_kib>-1704976</buffer_kib>
+          <cache_kib>12</cache_kib>
+          <active_kib>0</active_kib>
+          <inactive_kib>1704964</inactive_kib>
+          <pgpgin>0</pgpgin>
+          <pgpgout>48</pgpgout>
+          <pswpin>0</pswpin>
+          <pswpout>0</pswpout>
+          <pgmajfault>0</pgmajfault>
+        </mem_item_delta>
+      </sys_mem_item>
+      <sys_mem_item name="mid-run">
+        <mem_item_info>
+          <free_kib>177268312</free_kib>
+          <buffer_kib>181557348</buffer_kib>
+          <cache_kib>280544</cache_kib>
+          <active_kib>0</active_kib>
+          <inactive_kib>14421304</inactive_kib>
+          <pgpgin>1873209</pgpgin>
+          <pgpgout>7440128</pgpgout>
+          <pswpin>0</pswpin>
+          <pswpout>0</pswpout>
+          <pgmajfault>997</pgmajfault>
+        </mem_item_info>
+        <mem_item_delta>
+          <free_kib>-828</free_kib>
+          <buffer_kib>-540</buffer_kib>
+          <cache_kib>16</cache_kib>
+          <active_kib>0</active_kib>
+          <inactive_kib>-244</inactive_kib>
+          <pgpgin>0</pgpgin>
+          <pgpgout>60</pgpgout>
+          <pswpin>0</pswpin>
+          <pswpout>0</pswpout>
+          <pgmajfault>0</pgmajfault>
+        </mem_item_delta>
+      </sys_mem_item>
+      <sys_mem_item name="post-run">
+        <mem_item_info>
+          <free_kib>177267484</free_kib>
+          <buffer_kib>181556808</buffer_kib>
+          <cache_kib>280560</cache_kib>
+          <active_kib>0</active_kib>
+          <inactive_kib>14421060</inactive_kib>
+          <pgpgin>1873209</pgpgin>
+          <pgpgout>7440188</pgpgout>
+          <pswpin>0</pswpin>
+          <pswpout>0</pswpout>
+          <pgmajfault>997</pgmajfault>
+        </mem_item_info>
+        <mem_item_delta>
+          <free_kib>12606984</free_kib>
+          <buffer_kib>12607000</buffer_kib>
+          <cache_kib>0</cache_kib>
+          <active_kib>0</active_kib>
+          <inactive_kib>-12582052</inactive_kib>
+          <pgpgin>0</pgpgin>
+          <pgpgout>0</pgpgout>
+          <pswpin>0</pswpin>
+          <pswpout>0</pswpout>
+          <pgmajfault>0</pgmajfault>
+        </mem_item_delta>
+      </sys_mem_item>
+      <sys_mem_item name="post-unmap">
+        <mem_item_info>
+          <free_kib>189874468</free_kib>
+          <buffer_kib>194163808</buffer_kib>
+          <cache_kib>280560</cache_kib>
+          <active_kib>0</active_kib>
+          <inactive_kib>1839008</inactive_kib>
+          <pgpgin>1873209</pgpgin>
+          <pgpgout>7440188</pgpgout>
+          <pswpin>0</pswpin>
+          <pswpout>0</pswpout>
+          <pgmajfault>997</pgmajfault>
+        </mem_item_info>
+      </sys_mem_item>
+    </sys_mem_info>
+  </report>
+</pmbenchmark>
